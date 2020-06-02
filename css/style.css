@@ -1,0 +1,138 @@
+body {
+    background-color: darkgreen;
+}
+
+h2 {
+    display: inline;
+    margin: 10px;
+}
+
+#error {
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+    display: inline;
+    padding: 118px;
+    font-family: sans-serif;
+}
+
+button {
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover {
+    background-color: darkolivegreen;
+    transition: 400ms;
+}
+
+li {
+    display: block;
+}
+
+.carta {
+    display: inline-block;
+    height: 85px;
+    width: 75px;
+    background-color: white;
+    margin: 15px;
+    border-radius: 5px;
+    border: 1px solid orangered;
+}
+
+.numero {
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+}
+
+.spades::before {
+    color: #000000;
+    content: '\2660';
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 2px;
+}
+
+.spades::after {
+    color: #000000;
+    content: '\2660';
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: -5px;
+}
+
+.hearts::before {
+    color: red;
+    content: '\2665';
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 2px;
+}
+
+.hearts::after {
+    color: red;
+    content: '\2665';
+    width: 100%;
+    display: flex;
+    margin: -5px;
+    justify-content: flex-end;
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: FlipV;
+    -ms-filter: "FlipV";
+}
+
+.clubs::before {
+    color: #000000;
+    content: '\2663';
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 2px;
+}
+
+.clubs::after {
+    color: #000000;
+    content: '\2663';
+    width: 100%;
+    display: flex;
+    margin: -5px;
+    justify-content: flex-end;
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: FlipV;
+    -ms-filter: "FlipV";
+}
+
+.diams::before {
+    color: red;
+    content: '\2666';
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 2px;
+}
+
+.diams::after {
+    color: red;
+    content: '\2666';
+    width: 100%;
+    display: flex;
+    margin: -5px;
+    justify-content: flex-end;
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: FlipV;
+    -ms-filter: "FlipV";
+}
